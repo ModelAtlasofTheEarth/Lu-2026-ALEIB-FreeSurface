@@ -1,0 +1,20 @@
+Field,Value
+Title*,A novel ALE scheme with the internal boundary for true free surface simulation in geodynamic models
+Dataset version*,
+Abstract*,"The accurate simulation of Earth's surface is essential for understanding lithospheric and mantle dynamics, especially in processes such as subduction and surface deformation. Traditional top boundary conditions, such as free-slip or no-slip, do not fully capture the complex interactions occurring at the surface. The commonly used “Sticky Air” method, while practical, suffers from several limitations, including increased computational cost and marker fluctuation issues. Additionally, free surface numerical fluctuations, known as the “drunken sailor instability”, are characteristic of all free surface simulations, including true Lagrangian free surface treatments and Arbitrary Lagrangian–Eulerian (ALE) methods. In this study, we propose a novel scheme within the finite element framework that integrates the “Sticky Air” concept into an ALE formulation by employing an internal boundary to simulate a true free surface, referred to as the ALE-IB. This approach effectively addresses the limitations of existing methods, notably by reducing marker fluctuation issues and enhancing numerical stability. Moreover, it maintains a true surface in the computational domain that can be further reshaped by surface processes such as erosion and deposition, and provides a foundational scheme for further coupling framework of tectonic modelling and landscape evolution modelling. We detail the theoretical formulation, implementation strategies, and validation through a series of numerical experiments. The results demonstrate that our method achieves higher accuracy and broader applicability compared to conventional techniques. Ultimately, this framework provides a more realistic and robust tool for geodynamic modelling of the Earth's free surface."
+Topic category*,geoscientificInformation
+Field of research (FOR)*,https://linked.data.gov.au/def/anzsrc-for/2020/370401
+License*,Creative Commons Attribution 4.0 International
+Dataset lineage information*,"We propose a novel scheme for modelling the true free surface within the finite element method (FEM), which integrates the “sticky air” approach into the ALE scheme. This method employs an internal boundary to accurately represent the free surface, referred to as ALE-IB. We implement this scheme for free surface simulations in the geodynamic codes Underworld 2 and Underworld 3."
+Dataset format*,
+Dataset status,completed
+Maintenance frequency*,as needed
+Temporal extents* (if applicable),
+Spatial extents* (if applicable),
+Owner* (if applicable),
+Credit,
+Supplemental or supporting material,
+Local NCI file path,/g/data/nm08/MATE/Lu-2026-ALEIB-FreeSurface
+DOI (NCI Internal Field),
+Keyword/s,"free surface, ALE, internal boundary"
+Author 1,"Lu, Neng, Unknown, Unknown, https://orcid.org/0000-0001-9424-2315"
