@@ -1,1 +1,15 @@
-
+cff-version: 1.2.0
+message: If you use this model, please cite it as below.
+authors:
+- family-names: Lu
+  given-names: Neng
+  orcid: https://orcid.org/0000-0001-9424-2315
+title: A novel ALE scheme with the internal boundary for true free surface simulation
+  in geodynamic models
+version: ''
+doi: https://doi.org/10.25914/qz3n-p243
+date-released: '2026-09-09'
+url:
+- https://mate.science/models/Lu-2026-ALEIB-FreeSurface/
+- https://github.com/ModelAtlasofTheEarth/Lu-2026-ALEIB-FreeSurface/
+type: dataset
